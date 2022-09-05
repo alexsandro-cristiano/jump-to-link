@@ -10,7 +10,7 @@ body {
 }
 #main {
   margin: 0 auto;
-  height: 100vh;
+  height: 95vh;
 }
 section {
   display: flex;
@@ -19,7 +19,8 @@ section {
 }
 section img.image {
   display: block;
-  width: 6rem;
+  max-width: 25vw;
+  max-height: 25vh;
   clip-path: circle();
 }
 section span {
@@ -46,4 +47,20 @@ section span {
 #footer {
   text-align: center;
   font-size: 1rem;
+}
+
+@media(min-width:576px){
+  section span {
+    font-size: 1.4rem;
+  }
+  .containerLinksExterno{
+    gap: 1.5rem;
+  }
+  .containerLinksExterno > a{
+    width: 35rem;
+    font-size: 1.2rem;
+  }
+  #footer {
+    font-size: 1.2rem;
+  }
 }
