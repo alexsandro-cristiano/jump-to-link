@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 87.5%;
+}
+body {
+  background: #F7F7F7;
+  font-family: 'Open Sans', sans-serif;
+}
+#main {
+  margin: 0 auto;
+  height: 100vh;
+}
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section img.image {
+  display: block;
+  width: 6rem;
+  clip-path: circle();
+}
+section span {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.linkContainer{
+  margin-top: 1.5rem;
+}
+.linkContainer div{
+  border:1px solid black;
+}
+#footer {
+  text-align: center;
+  font-size: 1rem;
+}
