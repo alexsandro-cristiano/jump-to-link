@@ -73,15 +73,3 @@ section span {
     width: 50rem;
   }
 }
-
-@media(min-width:1440px){
-  section span {
-    font-size: 1.7rem;
-  }
-  .containerLinksExterno > a{
-    font-size: 1.6rem;
-  }
-  #footer {
-    font-size: 1.6rem;
-  }
-}
