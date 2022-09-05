@@ -6,7 +6,7 @@
 }
 body {
   background: #F7F7F7;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 #main {
   margin: 0 auto;
@@ -23,14 +23,25 @@ section img.image {
   clip-path: circle();
 }
 section span {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
 }
-.linkContainer{
+.containerLinksExterno{
+  gap: .8rem;
   margin-top: 1.5rem;
+  padding: .8rem;
 }
-.linkContainer div{
-  border:1px solid black;
+.containerLinksExterno > a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  width: 100%;
+  padding:.8rem;
+  
+  color: #F8F9D7;
+  font-weight: 500;
+  background: #6E85B7;
+  border-radius: 8px;
 }
 #footer {
   text-align: center;
