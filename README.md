@@ -1,10 +1,6 @@
 # PitStop
 
-![ capa](./public/capa.jpeg)
-
-Título e Imagem de capa;
-Badges;
-Índice;
+<img src="./public/capa.jpeg" alt="imagem do site versao mobile" style="width:250px;"/>
 
 ### Descrição do Projeto;
 
