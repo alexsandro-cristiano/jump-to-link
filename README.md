@@ -1,6 +1,6 @@
 # PitStop
 
-<img src="./public/capa.jpeg" alt="imagem do site versao mobile" style="width:250px;"/>
+<img src="./public/capa.png" alt="imagem do site versao mobile" style="width:250px;"/>
 
 ### Descrição do Projeto;
 
