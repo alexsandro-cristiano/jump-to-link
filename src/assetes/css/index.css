@@ -70,6 +70,7 @@ main nav a {
   gap: 0.5rem;
   padding: 0.9rem;
   font-weight: 500;
+  color: #fff;
   transition: all 0.2s;
 }
 main nav .linkHover {
@@ -80,12 +81,7 @@ main nav .linkHover {
 main nav .linkHover:hover {
   border: 2px dashed #f52cb9;
 }
-main nav .linkHover a .icon {
-  visibility: hidden;
-}
-main nav a:hover .icon {
-  visibility: visible;
-}
+
 .avatar {
   margin: 2rem 0 1rem;
   width: max(50px, min(135px, 22vw));
@@ -93,7 +89,6 @@ main nav a:hover .icon {
   border-radius: 50%;
   overflow: hidden;
   object-fit: cover;
-  border: 1px dotted #fa4f21;
   padding: 0.1rem;
 }
 .avatar img {
