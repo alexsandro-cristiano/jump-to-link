@@ -48,7 +48,7 @@ main header h1 {
   font-size: 1.6rem;
   font-weight: 500;
 }
-main header h2#office {
+main header #office {
   font-size: 1rem;
   font-weight: 400;
 }
@@ -63,7 +63,7 @@ main nav {
 main nav a {
   display: flex;
   align-items: center;
-   justify-content: space-evenly; 
+  justify-content: space-evenly;
   text-align: center;
   background: #fa4f21;
   border-radius: 4px;
@@ -100,9 +100,18 @@ main nav .linkHover:hover {
   min-width: 150;
   width: 100%;
 }
-/* .icon {
-  color: #fa4f21;
-} */
 footer {
   margin-bottom: 1.5rem;
+}
+
+@media (max-width: 375px) {
+  main header h1 {
+    font-size: 1.3rem;
+  }
+  main header #office {
+    font-size: 0.9rem;
+  }
+  footer {
+    font-size: 0.8rem;
+  }
 }
