@@ -4,7 +4,7 @@
 
 ### Descrição do Projeto;
 
-Projeto construido em Html com Css totalmente responsivo. Ele serve como link para as principais redes sociais e projetos pessoas. Atualmente esta disponivel no [neste link](https://pitstopdev.netlify.app/).
+Projeto construido em Html com Css totalmente responsivo. Ele serve como link para as principais redes sociais e projetos pessoas. Atualmente esta disponivel no [neste link](https://jumplinks.netlify.app/).
 
 ### Status do Projeto
 
@@ -12,7 +12,7 @@ Projeto encontra-se na versão 2, e não há planejamento para futuras features.
 
 ### Acesso ao Projeto;
 
-Acesse o site [pitstop](https://pitstopdev.netlify.app/).
+Acesse o [jumpt links](https://jumplinks.netlify.app/).
 
 ### Tecnologias utilizadas;
 
