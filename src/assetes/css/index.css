@@ -37,6 +37,8 @@ main {
   gap: 1rem;
   align-items: center;
   padding-bottom: 1.5rem;
+  max-width:576px;
+  width: 100%;
 }
 main header {
   display: flex;
@@ -49,7 +51,7 @@ main header h1 {
   font-weight: 500;
 }
 main header #office {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 main nav {
@@ -63,7 +65,7 @@ main nav {
 main nav a {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   text-align: center;
   background: #fa4f21;
   border-radius: 4px;
