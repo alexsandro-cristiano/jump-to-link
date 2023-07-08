@@ -149,7 +149,7 @@ div#fade {
   width: 100%;
   background: var(--white-color);
   color: var(--black-color);
-  border-radius: 6px;
+  border-radius: 4px;
   position: relative;
   padding: 3rem 1.5rem;
   z-index: 11;
@@ -219,7 +219,7 @@ div#fade.hide,
   align-items: center;
   font-weight: 500;
   position: relative;
-  border-radius: 6px;
+  border-radius: 4px;
   transition: background 0.3s ease-in-out;
 
   word-wrap: break-word;
@@ -245,7 +245,58 @@ div.share-link-svg {
   position: absolute;
   right: 15px;
 }
+.copy-container {
+  position: relative;
+  display: flex;
+  margin-top: 5px;
+  width: 100%;
+}
+.copy-icon-link {
+  position: absolute;
+  left: 5px;
+  top: 25%;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copy-input-link {
+  border: 1px solid var(--primary-color-alt);
+  border-radius: 4px 0 0 4px;
+  color: var(--black-color);
+  padding: 14px 14px 14px 32px;
+  width: 85%;
+  font-size: 1rem;
+}
+.copy-input-link:disabled {
+  cursor: default;
+}
+button#copy-button-link {
+  background: #845ec2;
+  border: 1px solid transparent;
+  border-radius: 0 4px 4px 0;
+  color: var(--white-color);
+  cursor: pointer;
+  width: 20%;
+  transition: background 0.3s ease-in-out;
+}
+.copy-container button#copy-button-link:hover {
+  background: var(--secundary-color);
+}
+.copy-container button#copy-button-link:before {
+  content: "Copied";
+  position: absolute;
+  top: -74%;
+  right: 0;
+  background: var(--secundary-color);
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 15px;
+  display: none;
+}
+.copy-container.active button#copy-button-link:before {
+  display: block;
+}
 footer {
   margin-bottom: 1.5rem;
 }
